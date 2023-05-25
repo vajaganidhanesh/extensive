@@ -16,6 +16,9 @@ module.exports = {
         playfair: ["Playfair Display", "serif"],
         Source: ["Source Sans Pro", "system-ui", "sans-serif"],
       },
+      letterSpacing: {
+        "-0.015": "-0.015em",
+      },
     },
   },
   plugins: [],
