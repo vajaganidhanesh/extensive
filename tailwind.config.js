@@ -11,6 +11,8 @@ module.exports = {
         "custom-color-3": "#B7364A",
         "custom-color-4": "#494949",
         "custom-color-5": "#463366",
+        "custom-color-6": "#0C0525",
+        "custom-orange": "#FF6E6C",
       },
       fontFamily: {
         playfair: ["Playfair Display", "serif"],
@@ -18,6 +20,10 @@ module.exports = {
       },
       letterSpacing: {
         "-0.015": "-0.015em",
+        0.0125: "0.0125em",
+      },
+      fontWeight: {
+        689: "689",
       },
     },
   },
