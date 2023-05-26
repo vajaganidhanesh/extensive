@@ -3,6 +3,7 @@ import { useState } from "react";
 import MainContent from "./components/MainContent";
 import Section2 from "./components/Section2";
 import Section3 from "./components/Section3";
+import Section4 from "./components/Section4";
 
 function Navbar() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -74,6 +75,7 @@ function Navbar() {
       <MainContent />
       <Section2 />
       <Section3 />
+      <Section4 />
     </>
   );
 }

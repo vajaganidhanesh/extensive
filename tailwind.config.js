@@ -22,10 +22,17 @@ module.exports = {
         "-0.015": "-0.015em",
         0.0125: "0.0125em",
         0.005: "0.005em",
+        "-0.005": "-0.005em",
         0.0025: "0.0025em",
       },
       fontWeight: {
         689: "689",
+      },
+      // boxShadow: {
+      //   custom: "0px 0px 4px rgba(0, 0, 0, 0.25)",
+      // },
+      boxShadow: {
+        custom: "0px 0px 4px rgba(0, 0, 0, 0.25);",
       },
     },
   },
