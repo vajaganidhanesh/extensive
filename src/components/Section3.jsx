@@ -1,9 +1,10 @@
 import React from "react";
+import Description from "./Description";
 
 function Section3() {
   return (
     <>
-      <div className=" mt-[126.46px] bg-custom-color pr-[72px] pl-[72px]">
+      <div className=" mt-[126.46px] bg-custom-color pr-[72px] pl-[72px] pb-6">
         <div className=" pt-6">
           <div className="leading-[132px] -tracking-0.015 font-689 uppercase text-[99px] text-white font-playfair">
             our <br /> work.
@@ -12,23 +13,43 @@ function Section3() {
             view all
           </button>
 
-          <div className=" pt-[40px]">
+          <div className=" pt-[40px] ">
             <div className=" flex flex-row ">
-              <div className=" min-w-[50%]">
-                <img src="assets/image-1.svg" className=" w-full" alt="" />
-                <div className=" pt-[11px] uppercase tracking-0.005 leading-[21px] font-normal text-custom-orange text-[17px] font-Source ">
-                  digital marketing
-                </div>
-                <div className=" text-custom-color-1 text-[49px]"></div>
-              </div>
-              <div className="w-[50%] ml-6">
+              <div className="">
                 <img
-                  src="assets/image-2.svg"
-                  className="w-[646px] h-[auto] "
+                  src="assets/Rectangle-1.png"
+                  className="w-[636px]"
                   alt=""
                 />
+                <Description props={"STARBUCKS"} />
               </div>
-              <div></div>
+
+              <div className=" ml-4">
+                <img
+                  src="assets/Rectangle.png"
+                  className="w-[636px] h-[478px]"
+                  alt=""
+                />
+                <Description props={"Nike"} />
+              </div>
+            </div>
+          </div>
+
+          <div className=" pt-[40px]">
+            <div className=" flex flex-row ">
+              <div className="">
+                <img src="assets/Rectangle.png" className="w-[636px]" alt="" />
+                <Description props={"Nike"} />
+              </div>
+
+              <div className=" ml-6">
+                <img
+                  src="assets/Rectangle-1.png"
+                  className="w-[636px] "
+                  alt=""
+                />
+                <Description props={"STARBUCKS"} />
+              </div>
             </div>
           </div>
         </div>
