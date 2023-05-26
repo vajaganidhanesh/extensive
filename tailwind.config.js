@@ -21,6 +21,7 @@ module.exports = {
       letterSpacing: {
         "-0.015": "-0.015em",
         0.0125: "0.0125em",
+        0.005: "0.005em",
       },
       fontWeight: {
         689: "689",

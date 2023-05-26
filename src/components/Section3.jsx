@@ -13,8 +13,23 @@ function Section3() {
           </button>
 
           <div className=" pt-[40px]">
-            <div></div>
-            <div></div>
+            <div className=" flex flex-row ">
+              <div className=" min-w-[50%]">
+                <img src="assets/image-1.svg" className=" w-full" alt="" />
+                <div className=" pt-[11px] uppercase tracking-0.005 leading-[21px] font-normal text-custom-orange text-[17px] font-Source ">
+                  digital marketing
+                </div>
+                <div className=" text-custom-color-1 text-[49px]"></div>
+              </div>
+              <div className="w-[50%] ml-6">
+                <img
+                  src="assets/image-2.svg"
+                  className="w-[646px] h-[auto] "
+                  alt=""
+                />
+              </div>
+              <div></div>
+            </div>
           </div>
         </div>
       </div>
