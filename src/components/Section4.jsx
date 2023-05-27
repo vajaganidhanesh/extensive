@@ -29,7 +29,7 @@ function Section4() {
             <RepeatImg props={"assets/Vpinterest.svg"} />
           </div>
         </div>
-        <div className=" mt-[223px]">
+        <div className=" mt-[223px] mb-[41px]">
           <div className="font-playfair text-custom-color text-[99px] font-689 leading-[132px] tracking-0.015">
             Testimonials
           </div>
